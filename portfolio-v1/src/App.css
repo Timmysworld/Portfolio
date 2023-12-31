@@ -1,0 +1,439 @@
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-rendering: optimizeLegibility;  
+    }
+    a{
+    text-decoration: none;
+    color: #4FA3A5;
+    }
+    .App{
+    background-color: #264248;
+    }
+    .error{
+    color: red;
+    }
+    /* NAVBAR.jsx  */
+    .navigation{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    }
+    ul{
+    display: flex;
+    list-style: none;
+    }
+    ul li{
+    padding: 10px;
+
+    }
+
+    /* Main.jsx */
+    .main-wrapper{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    }
+    .welcome-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 70vh;
+    }
+    hr{
+    width: 40%;
+    color: black;
+    }
+    .quote-of-the-day{
+    margin: 0 auto;
+    width: 25%;
+
+    }
+    .quotes{
+    font-weight: 300; 
+    font-family: "Montserrat";
+    text-align: center;
+
+    }
+    .q-author{
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 40px 20px 40px;
+    }
+
+    .nav-link{
+    text-decoration: none;
+    color: #f1cf63;
+    }
+
+    /* ABOUT.jsx */
+
+    .about-header, .blog-header, .contact-header, .project-header{
+    color: #f1cf63;
+    /* background-color: #343434; */
+    text-align: center;
+    font-family: 'Poppins';
+    line-height: 2.5rem;
+    /* padding-top: 5px;
+    padding-bottom: 11px     */
+    }
+
+    .sub-heading{
+    font-weight: 300;
+    }
+
+    .the{
+    margin-left: 40px;
+    font-size: 1.4em ;
+    font-family: Playfair Display;
+    }
+
+    .dod-rl{
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 1.1em;
+    }
+
+    .dod-of{
+    font-family: Playfair Display;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 0.5em;
+    vertical-align: middle;
+    margin-top: -0.4em;
+    display: inline-block;
+    }
+    .skill-card{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: space-evenly;
+    width: 100vw;
+    padding: 25px;
+    margin-top: 10px;
+    }
+
+    .Card{
+    width: 50%;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    }
+    .Card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    border:2px solid #f1cf63;
+    }
+
+    .Card-info{
+    text-align: center;
+    }
+    .text{
+    text-align: left;
+    font-weight: 300;
+    text-align: center;
+    }
+    .stacks{
+    color: #dbb538;
+    }
+    /* PROJECT SECTION */
+    /* current-project */
+    .current-project, .myStoryBox{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    }
+
+    .project, .other-projects, .myStory{
+    padding: 15px;
+    margin: 20px;
+    width:50%
+    }
+
+    .project-heading, .other-projects, .bio-heading, .myStory-heading{
+    font-size: 1.5rem;
+    }
+    .project-info, .myStory-info{
+    margin: 10px;
+    font-weight: 300;
+    }
+    .project-info span{
+    font-weight: 400;
+    }
+    figure{
+    padding: 15px;
+    }
+    a{
+    padding:7.5px;
+
+    }
+
+    .myStory-info span {
+    font-weight: 400;
+    }
+    .blog{
+    background-color: white;
+    }
+    .wfd{
+    margin-left: 60px;
+    }
+    .hobbies{
+    color: #dbb538;
+    }
+    .mainLayout-title{
+    margin-bottom: 15px;
+    }
+
+    .footer{
+    position: fixed;
+    bottom: 0;
+    max-width: 100%;
+    background-color: white;
+    font-weight: 300;
+    margin: 0 auto;
+    background-color: #264248;
+    }
+    .footer span {
+    color: #f1cf63;
+    font-weight: 500;
+    }
+    .icons{
+    display: flex;
+    flex-direction: row-reverse;
+    }
+    .contact-wrapper{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: 10px;
+    margin-bottom: 50px;
+    }
+    .contact-heading h2{
+    font-size: 3rem;
+    font-family: 'Poppins';
+    color: #f1cf63;
+    }
+    .contact-text{
+    width: 100vw;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-evenly;
+    }
+    .contact-info{
+    font-size: 1.2rem;
+    max-width: 45vw;
+    /* min-width: 900px; */
+    }
+
+    .contact-info p span{
+    transform: scale(1, 1.5);
+    -webkit-transform: scale(1, 1.5);
+    color: #f1cf63;
+    font-size: 2rem;
+    font-weight: 600;
+    font-stretch: ultra-expanded;
+    }
+    .contact-info a{
+    margin: 0.35vw 0.25vw;
+    }
+
+    .split{
+    display: flex;
+    vertical-align: baseline;
+
+    }
+    .line{
+    opacity: 1; 
+    display: inline-block;
+    transform: scale(1, 1.5);
+    /* Safari and Chrome */
+    -webkit-transform: scale(1, 1.5);
+    /* Firefox */
+    -moz-transform: scale(1, 1.5);
+    /* IE 9+ */
+    -ms-transform: scale(1, 1.5);
+    /* Opera */
+    -o-transform: scale(1, 1.5);
+    }
+
+    .btn{
+    color: #f1cf63;
+    background-color: transparent;
+    position: relative;
+    display: inline-block;
+    font-size: 2.125rem;
+    text-transform: uppercase;
+    border-radius: 24px;
+    padding: 0 1rem;
+    border: 1px solid #f5eee6;
+    line-height: 47px;
+    }
+
+    form {
+    width: 500px;
+    margin: 0 auto;
+    text-align: left;
+    }
+    input, textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    }
+
+    label {
+    width: 35%;
+    display: inline-block;
+    }
+    .form-field *{
+    vertical-align: top;
+    }
+    input:hover[type=submit]{
+    background-color: #f1cf63;
+    }
+    .mockup{
+    filter: drop-shadow(8px 8px 4px black);
+    }
+
+    /* MEDIA QUERIES  */
+
+    @media (min-width: 768.1px) and (max-width: 850px) {
+    .quote-of-the-day h6{
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 0 75px 0 75px;
+    }
+    .welcome-section h4{
+    font-size: 1.25rem;;
+    }
+    Container .footer{
+    display: flex;
+    flex-direction: column;
+    }
+    .skill-card{
+    flex-wrap: wrap;
+    }
+
+    }
+
+    @media (min-width: 850.1px) and (max-width: 1050px){
+    .quote-of-the-day h6{
+    font-size: 2.2rem;
+    text-align: center;
+    margin: 0 75px 0 75px;
+    }
+    .welcome-section h1{
+    font-size: 5.5rem;
+    }
+    .welcome-section h4{
+    font-size: 1.25rem;;
+    }
+
+    .skill-card{
+    flex-wrap: wrap;
+    }
+    .Card{
+    width: 100%;
+    }
+    }
+    @media (max-width: 768px){
+    .quote-of-the-day h6{
+    /* font-size: 1.6rem; */
+    text-align: center;
+    margin: 0 75px 0 75px;
+    }
+    .welcome-section h1{
+    font-size: 4.5rem;
+    }
+    .welcome-section h4{
+    font-size: 1.25rem;;
+    }
+
+    .cartoonHead{
+    position: absolute;
+    top: 50%;
+    left: 30%;
+
+    height: 25%;
+    width: 35%;
+    }
+    .footer{
+    flex-direction: column;
+    text-align: center;
+    font-size: .7rem;
+    }
+    .footer .icons{
+    justify-content: center;
+    }
+    .project, .myStory{
+    padding: 10px;
+    margin: 0 auto;
+    width: 100%;
+    }
+    .project-title{
+    text-align: center;
+    }
+    .project-heading, .other-projects, .myStory-heading {
+    font-size: 1.1rem;
+    text-align: center;
+    }
+    .skill-card{
+    flex-wrap: wrap;
+    }
+    .Card{
+    width: 100%;
+    }
+
+
+    /* .myStoryBox{
+    flex-direction: column-reverse; 
+    } */
+
+    .contact-wrapper{
+    width: 100%;
+    min-width: auto;
+    max-width: 100%;
+    }
+    .contact-text{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 5px;
+    }
+    .contact-info{
+    max-width: 0;
+    min-width: 0;
+    }
+    .contact-info p{
+    display: inline-block;
+    width: 100vw;
+    }
+
+    .btn{
+    font-size: medium;
+    line-height: normal;
+    width: 220px;
+    border: none;
+    }
+
+    .quote-of-the-day{
+    padding: 5px;
+    width: 100%;
+    }
+    .quotes p{
+    padding: 10px;
+    }
+
+
+    }
+
+
+
+
